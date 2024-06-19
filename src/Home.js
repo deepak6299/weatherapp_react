@@ -65,7 +65,7 @@ export default function Home() {
     <div className='container'>
       <div className='weather'>
       <div className='search'>
-        <input type='text' placeholder='Enetr city Name' onChange={e=>setname(e.target.value)}/>
+        <input type='text' placeholder='Enter city Name' onChange={e=>setname(e.target.value)}/>
         <button onClick={handleclick}>Search</button>
             
       </div>
